@@ -1,0 +1,23 @@
+1 1 1
+1 1
+1
+
+let n=userInput[0]
+let res=""
+for(let i=1;i<=n;i++)
+{
+  for(let j=i;j<=n;j++)
+  {
+    if(j==n)
+    {
+      res=res+"1"
+    }
+    else{
+          res=res+"1"+" "
+
+    }
+  }
+  res=res+"\n"
+}
+
+console.log(res)
