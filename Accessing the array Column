@@ -1,0 +1,19 @@
+let arr=[[1,2,3],[4,5,6],[7,8,9]]
+ console.log(arr)
+let newarr=[]
+for(let row=0;row<=arr.length-1;row++)
+{
+  for(let col=0;col<=arr.length-1;col++)
+  {
+    newarr.push(arr[col][row])
+  }
+   
+}
+console.log(newarr)
+
+
+output
+[
+  1, 4, 7, 2, 5,
+  8, 3, 6, 9
+]
