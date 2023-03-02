@@ -1,0 +1,7 @@
+
+// filter search
+let lang=["java","python","c","c++"]
+let q="c"
+const filtered=lang.filter((l)=>l.toLowerCase().includes(q.toLowerCase()))
+
+console.log(filtered)
